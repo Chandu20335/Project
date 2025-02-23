@@ -1,0 +1,137 @@
+/* General styles for the whole app */
+.App {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f4f7fc;
+  border-radius: 8px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Heading styles */
+h1, h2 {
+  color: #333;
+  text-align: center;
+}
+
+/* Form styling */
+form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="text"], input[type="email"], input[type="number"], select {
+  font-size: 16px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Registered students list */
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  font-size: 16px;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+li span {
+  font-weight: bold;
+}
+
+ul li button {
+  margin-left: 10px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+ul li button:hover {
+  background-color: #d32f2f;
+}
+
+/* Course management section */
+h2 {
+  margin-top: 40px;
+}
+
+.course-list {
+  margin-top: 20px;
+}
+
+.course-list ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.course-list li {
+  background-color: #fafafa;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.course-list li button {
+  background-color: #2196F3;
+  margin-left: 10px;
+}
+
+.course-list li button:hover {
+  background-color: #1976D2;
+}
+
+.edit-course input,
+.edit-course select {
+  width: 100px;
+}
